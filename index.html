@@ -15,17 +15,33 @@
 </head>
 
 <body>
-  <!-- container -->
+  <!-- main container -->
   <div class="container">
       <!-- begin navigation bar -->
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="http://www.ronaldcho.us">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-  </div> <!-- container end -->
+      <div class="navigation"> <!-- beging nav div -->
+          <nav>
+            <!-- vertical navigation -->
+            {% comment %} <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="http://www.ronaldcho.us">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul> {% endcomment %}
+            <!-- horizontal navigation -->
+              <a href="#">Who is Ronald Cho</a>
+              <a href="#">Projects</a>
+              <a href="http://www.ronaldcho.us">Portfolio</a>
+              <a href="#">Contact</a>
+          </nav>
+      </div> <!-- nav end div -->
+
+      <div class="aboutme">
+        <p>
+          Ronald Cho full stack web developer using HTML5, CSS3, JavaScript, NodeJS, Python, Express, MongoDB and React/ Redux, Django framwroks.
+          A quick learner, effective communication skills with different levels of technical and non-technical people. 
+        </p> 
+      </div>
+  </div> <!--main container end -->
+
 </body>
 </html>
